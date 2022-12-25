@@ -13,7 +13,7 @@ connectDatabase()
 PassportAuth()
 
 app.use(cors({
-    origin: 'http://localhost:3001'
+    origin: 'https://eloquent-churros-c615ba.netlify.app/'
 }))
 app.use(express.json())
 app.use(session({
